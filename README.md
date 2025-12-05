@@ -4,6 +4,7 @@
 # Environment
 Python 3.10 (thấp hơn hay cao hơn đều lỗi)
 
+pip install -r ./CVLface-main/requirements.txt
 
 # Clone repo 
 git clone https://github.com/dtc-z/Test_cvl_face.git
