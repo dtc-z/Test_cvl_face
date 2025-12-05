@@ -1,15 +1,20 @@
 # Test_cvl_face
 # Test hiệu quả nhận diện khuôn mặt của model CVL Face, kết hợp SCRFD để phát hiện và nhận diện khuôn mặt real-time.
 
+### Em mới sửa một số đường dẫn trong các config để gọn hơn, nếu có lỗi các anh fix giúp em ạ.
+
 # Environment
 Python 3.10 (thấp hơn hay cao hơn đều lỗi)
-
-pip install -r ./CVLface-main/requirements.txt
 
 # Clone repo 
 git clone https://github.com/dtc-z/Test_cvl_face.git
 
+pip install -r ./CVLface-main/requirements.txt
+
 cd Test_cvl_face
+
+# Tải files models và data rồi giải nén thẳng vào root (để 3 thư mục .cvlface_local_cache, .insightface_cache và data ở ngay trong Test_cvl_face)
+https://drive.google.com/file/d/1wWuq4OSPDn2DXxGx6kUtd4vW5aB5tokW/view?usp=sharing
 
 # 1. Test CVL face
 ## 1.1 Tạo database
